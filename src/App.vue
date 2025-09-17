@@ -7,6 +7,7 @@
   <Step005View/>
   <Step006View/>
   <Step007View/>
+  <Step008View/>
 </template>
 
 <script>
@@ -17,10 +18,12 @@ import Step004View from "@/components/step004view.vue";
 import Step005View from "@/components/Step005View.vue";
 import Step006View from "@/components/Step006View.vue";
 import Step007View from "@/components/Step007View.vue";
+import Step008View from "@/components/Step008View.vue";
 
 export default {
   name: 'App',
   components: {
+    Step008View,
     Step007View,
     Step006View,
     Step005View,
