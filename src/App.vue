@@ -12,6 +12,7 @@
     <Step009View/>
     <Step010View/>
     <Step011View/>
+    <Step012View/>
   </div>
 </template>
 
@@ -27,10 +28,12 @@ import Step008View from "@/components/Step008View.vue";
 import Step009View from "@/components/Step009View.vue";
 import Step010View from "@/components/Step010View.vue";
 import Step011View from "@/components/Step011View.vue";
+import Step012View from "@/components/Step012View.vue";
 
 export default {
   name: 'App',
   components: {
+    Step012View,
     Step011View,
     Step010View,
     Step009View,
