@@ -12,14 +12,16 @@ export default defineComponent({
 </script>
 
 <template>
-  <hr>
-  <p>
-    <a :href="href" :target="target" :rel="rel">
-      <slot name="link">링크</slot>
-    </a>
-  </p>
-  <div class="result">
-    <slot name="result" />
+  <div class="col">
+    <div class="col-content">
+      <p>
+        <a :href="href" :target="target" :rel="rel">
+          <slot name="link">링크</slot>
+        </a>
+      </p>
+    </div>
+    <div class="result col-content" style="width: 100%">
+      <slot name="result" />
+    </div>
   </div>
-  <hr>
 </template>

@@ -3,12 +3,14 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Step002View/>
   <Step003view/>
-  <Step004View/>
-  <Step005View/>
-  <Step006View/>
-  <Step007View/>
-  <Step008View/>
-  <Step009View/>
+  <div class="container">
+    <Step004View/>
+    <Step005View/>
+    <Step006View/>
+    <Step007View/>
+    <Step008View/>
+    <Step009View/>
+  </div>
 </template>
 
 <script>
@@ -47,4 +49,24 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* col 스타일 */
+.col {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 150px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
 </style>
