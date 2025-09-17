@@ -3,7 +3,7 @@
 import StepDocument from "@/components/StepDocument.vue";
 import {computed, ref} from 'vue'
 
-const stepNumber = 6;
+const stepNumber = 8;
 
 let id = 0
 
