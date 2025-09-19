@@ -14,6 +14,7 @@
     <Step011View/>
     <Step012View/>
     <Step013View/>
+    <Step014View/>
   </div>
 </template>
 
@@ -31,6 +32,7 @@ import Step010View from "@/components/Step010View.vue";
 import Step011View from "@/components/Step011View.vue";
 import Step012View from "@/components/Step012View.vue";
 import Step013View from "@/components/Step013/Step013View.vue";
+import Step014View from "@/components/Step014/Step014View.vue";
 
 export default {
   name: 'App',
@@ -47,6 +49,7 @@ export default {
     Step004View,
     Step002View,
     Step003view,
+    Step014View,
     HelloWorld
   }
 }
